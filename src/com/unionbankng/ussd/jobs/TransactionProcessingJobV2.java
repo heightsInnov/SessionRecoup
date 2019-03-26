@@ -53,26 +53,34 @@ public class TransactionProcessingJobV2 {
 								threads.add(oThread);
 
 								if (batchItemCounter >= Constants.NUMBER_OF_THREADS) {
-									log.info("Processing for session " + item.getPaymet_ref_no()+ " item count=" + batchItemCounter);
-									break;
-								}
-							}
-							threads.forEach((item) -> {
-								try {
-									if (item.isAlive()) {
-										item.join(60000);
+									
+									log.info("Processing for session " + item.getPaymet_ref_no() + " item count=" + batchItemCounter);
+									
+									//begin
+									threads.forEach((thread) -> {
+										try {
+											if (thread.isAlive()) {
+												thread.join(60000);
+											}
+										} catch (InterruptedException ex) {
+											log.error(ex);
+										}
+									});
+									log.info("Finished processing for session file item count=" + batchItemCounter);
+									try {
+										log.info("Performing cleanup..." + (1) + "s");
+										Thread.sleep(1000);
+									} catch (InterruptedException ex) {
+										log.error(ex);
 									}
-								} catch (InterruptedException ex) {
-									log.error(ex);
+
+									//end
+									//break;
+									batchItemCounter = 0;
+									threads= new ArrayList();
 								}
-							});
-							log.info("Finished processing for session file item count=" + batchItemCounter);
-							try {
-								log.info("Performing cleanup..." + (1) + "s");
-								Thread.sleep(1000);
-							} catch (InterruptedException ex) {
-								log.error(ex);
 							}
+
 						}
 					} catch (Exception ex) {
 						log.error(ex.getMessage());
