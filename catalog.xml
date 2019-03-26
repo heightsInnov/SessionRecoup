@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://10.40.40.169:9911/T24InterfaceEngine/T24WebServiceProxy?wsdl" uri="xml-resources/web-service-references/T24WebServiceProxy/wsdl/10.40.40.169_9911/T24InterfaceEngine/T24WebServiceProxy.wsdl"/>
+    <system systemId="http://10.40.40.169:9911/T24InterfaceEngine/T24WebServiceProxy?xsd=1" uri="xml-resources/web-service-references/T24WebServiceProxy/wsdl/10.40.40.169_9911/T24InterfaceEngine/T24WebServiceProxy.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/T24InterfaceEngine_PAYCHOICE_COMM_SPLIT/T24WebServiceProxy?wsdl" uri="xml-resources/web-service-references/T24WebServiceProxy_1/wsdl/localhost_8080/T24InterfaceEngine_PAYCHOICE_COMM_SPLIT/T24WebServiceProxy.wsdl"/>
+    <system systemId="http://localhost:8080/T24InterfaceEngine_PAYCHOICE_COMM_SPLIT/T24WebServiceProxy?xsd=1" uri="xml-resources/web-service-references/T24WebServiceProxy_1/wsdl/localhost_8080/T24InterfaceEngine_PAYCHOICE_COMM_SPLIT/T24WebServiceProxy.xsd_1.xsd"/>
+    <system systemId="http://10.40.18.19:9911/T24InterfaceEngine/T24WebServiceProxy?wsdl" uri="xml-resources/web-service-references/T24WebServiceProxy/wsdl/10.40.18.19_9911/T24InterfaceEngine/T24WebServiceProxy.wsdl"/>
+    <system systemId="http://10.40.18.19:9911/T24InterfaceEngine/T24WebServiceProxy?xsd=1" uri="xml-resources/web-service-references/T24WebServiceProxy/wsdl/10.40.18.19_9911/T24InterfaceEngine/T24WebServiceProxy.xsd_1.xsd"/>
+</catalog>
