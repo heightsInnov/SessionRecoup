@@ -104,8 +104,6 @@ public class DbImpl {
 						tns.setFlow_id(rs.getString("FLOW_ID"));
 						tns.setOtype(rs.getString("OTYPE"));
 						tns.setReceived_from(rs.getString("RECEIVED_FROM"));
-
-						res.add(tns);
 					}
 				}
 				rs.close();
