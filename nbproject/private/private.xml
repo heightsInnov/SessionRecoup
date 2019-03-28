@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/jobs/TransactionProcessingJobV2.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/jobs/TokenRefresh.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/jobs/ItemPostingProcessor.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/utils/MiServeImpl.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/converters/JsonConverter.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/jobs/SummaryUpdateJob.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/db/DbImpl.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/Starter.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/dao/DatasourceSqlServer.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/utils/Config.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/dao/Datasource.java</file>
-            <file>file:/C:/Users/aojinadu/Documents/NetBeansProjects/UbnInwardNapsPostingClient/src/com/unionbankng/naps/constants/Constants.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
