@@ -13,7 +13,6 @@ public class UssdDetails {
 	private String target_tbl;
 	private String paymet_ref_no;
 	private String branch_code;
-	private String amount;
 	private String fee;
 	private String servicecode;
 	private String channel;
@@ -66,14 +65,6 @@ public class UssdDetails {
 
 	public void setBranch_code(String branch_code) {
 		this.branch_code = branch_code;
-	}
-
-	public String getAmount() {
-		return amount;
-	}
-
-	public void setAmount(String amount) {
-		this.amount = amount;
 	}
 
 	public String getFee() {

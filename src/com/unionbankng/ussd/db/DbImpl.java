@@ -32,6 +32,7 @@ public class DbImpl {
 
 	Datasource connMgr = new Datasource();
 
+	
 	public List<TransactionSummaryDto> getPendingTransactionsSummary(int partitionId) {
 		List<TransactionSummaryDto> res = new ArrayList();
 
@@ -73,6 +74,11 @@ public class DbImpl {
 		return res;
 	}
 
+//	public static void main(String[] args) {
+//		DbImpl d = new DbImpl();
+//		System.out.println(d.getPendingTransactionsDetail().size());
+//	}
+	
 	public List<UssdDetails> getPendingTransactionsDetail() {
 		List<UssdDetails> res = new ArrayList();
 
@@ -92,7 +98,6 @@ public class DbImpl {
 						tns.setTarget_tbl(rs.getString("TARGET_TBL"));
 						tns.setPaymet_ref_no(rs.getString("PAYMET_REF_NO"));
 						tns.setBranch_code(rs.getString("BRANCH_CODE"));
-						tns.setAmount(rs.getString("AMOUNT"));
 						tns.setFee(rs.getString("FEE"));
 						tns.setServicecode(rs.getString("SERVICECODE"));
 						tns.setChannel(rs.getString("CHANNEL"));
@@ -104,6 +109,8 @@ public class DbImpl {
 						tns.setFlow_id(rs.getString("FLOW_ID"));
 						tns.setOtype(rs.getString("OTYPE"));
 						tns.setReceived_from(rs.getString("RECEIVED_FROM"));
+						
+						res.add(tns);
 					}
 				}
 				rs.close();

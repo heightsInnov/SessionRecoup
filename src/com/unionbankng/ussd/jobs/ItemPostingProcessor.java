@@ -41,7 +41,7 @@ public class ItemPostingProcessor implements Runnable {
 
             FundsTransferRequest transferRequest = new FundsTransferRequest();
 
-            transferRequest.setAmount(item.getAmount());
+            transferRequest.setAmount(item.getFee());
             transferRequest.setCreditAccountBranchCode("000");
             transferRequest.setCreditAccountNumber(Constants.CREDIT_ACCOUNT);
             transferRequest.setCreditAccountType("GL");
